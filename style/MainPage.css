@@ -1,0 +1,213 @@
+@import "global.css";
+
+/* first hero section */
+.hero {
+    display: grid;
+    grid-template-rows:max-content;
+    grid-template-columns: 50% 50%;
+    padding: 0px 100px;
+    height: 95vh;
+    width: 100%;
+    color: rgb(245, 245, 245);
+    background-image: url("img/MainPage_img/hero_bg.jpg");
+    background-size:cover;
+    align-content: center;
+    background-position:center;
+    justify-content: space-evenly;
+}
+.hero #hero_heading{
+    grid-area: 1/1/2/2;
+}
+.hero #hero_video{
+    grid-area: 1/2/2/3;
+    align-self: start;
+    width: calc(50%-50px);
+}
+.hero h1,.hero p{
+    margin-bottom:30px;
+}
+#hero_heading img{
+    margin-top: -70px;
+    margin-bottom: 20px;
+}
+
+/* section two */
+.section_two {
+    background-color: #F7F7F7;
+    height: fit-content;
+}
+
+.section_two_heading {
+    text-align: center;
+    justify-content: center;
+    padding-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.section_two h1 {
+    color: rgb(5, 5, 5);
+    text-align: center;
+}
+
+.section_two hr {
+    position: relative;
+    right: -38.5%;
+    width: 22vw;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.div_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 70px;
+    padding: 30px;
+}
+
+.div_container .item {
+    display: block;
+    width: 220px;
+    height: 200px;
+    border-radius: 5%;
+    margin: 2px 15px;
+    padding: 5px;
+    border:1px solid rgb(214, 214, 214);
+    box-shadow:  0px 8px 24px rgba(149, 157, 165, 0.2);
+    background-position: 50%;
+    background-size: cover;
+    text-align: center;
+    transition: all 0.2s linear;
+}
+
+.item:hover{
+    box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.5);
+}
+
+/* background images for flex item */
+.item_1{
+    color: white;
+    background-image: url("img/MainPage_img/hero_bg.jpg");
+}
+.item_2{
+    background-image: url("img/MainPage_img/item2.jpg");
+}
+.item_3{
+    color: white;
+    background-image: url("img/MainPage_img/item3.jpg");
+}
+.item_4{
+    background-image: url("img/MainPage_img/item4.jpg");
+}
+.item_5{
+    background-image: url("img/MainPage_img/item5.jpg");
+}
+.item_6{
+    color: #ffffff;
+    background-image: url("img/PlayGame_img/joystick_bg.jpg");
+}
+.item_7{
+    background-image: url("img/MainPage_img/item7.jpg");
+}
+.item_8{
+    color: #ffffff;
+    background-image: url("img/MainPage_img/item8.jpg");
+}
+
+.item h2 {
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.item p {
+    font-weight: 400;
+    padding: 10px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.item a {
+    display: none;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 3px 10px;
+    transition: all 0.2s linear;
+    color: #ffffff;
+    transition: all linear 0.25s;
+    position: sticky;
+    top: 100%;
+    margin-bottom: 20px;
+}
+
+.item a:hover {
+    cursor: pointer;
+    background-color: #F7F7F7;
+}
+
+.item:hover a {
+    display: inline-block;
+    opacity: 1;
+    z-index: 2;
+}
+/* section three  */
+.section_three{
+    text-align: center;
+    background-color: #232323;
+    height: fit-content;
+    border-bottom: 1px solid #ffffff;
+}
+.section_three h1,.section_three hr{
+    color: #ffffff;
+}
+.section_three hr{
+    position: relative;
+    right: -38.5%;
+    width: 22vw;
+    border: 2px solid #ffffff;
+}
+.music .playButton{
+    position: sticky;
+    top: 100%;
+}
+.section_three .music{
+    width: 130px;
+    background-color: #F7F7F7;
+}
+.section_three .music:hover{
+    box-shadow: 0px 0px 0px 5px #bdbdc080;
+}
+.section_three .music img{
+    border-radius: 5%;
+    box-shadow:  0px 7px 29px 0px #64646f80;
+}
+/* section four */
+.section_four {
+    display: grid;
+    padding: 60px;
+    grid-template-rows:max-content;
+    grid-template-columns: 50% 50%;
+    background-color: #232323;
+    height: fit-content;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.section_four img {
+    grid-area: 1/1/2/2;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 1px #767676;
+}
+
+.section_four .content {
+    align-self: start;
+    text-align: justify;
+    margin-right: 10px;
+    width: calc(50%-50px);
+    grid-area: 1/2/2/3;
+    border-radius: 10px;
+}
+.content hr{
+    width: 160px;
+    border: 2px solid #ffffff;
+}

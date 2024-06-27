@@ -1,0 +1,33 @@
+.about_me {
+    background-image: url("img/forms_bg/cube_bg.jpg");
+    background-position: top;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 2px solid #0056b3;
+}
+.about_me img {
+    max-width: 200px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+h2 {
+    color: #007BFF;
+}
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+a {
+    color: #007BFF;
+    text-decoration: none;
+}

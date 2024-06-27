@@ -1,2 +1,1 @@
-# Web-CW
-Rivindu-newsletter
+# Web-Coursework
