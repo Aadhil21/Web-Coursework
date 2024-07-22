@@ -14,8 +14,6 @@ This project implements a web-based music recommendation system that allows user
 ## Tech Stack
 - **Frontend:** HTML, CSS, JavaScript
 - **Data Handling:** XML
-- **Server:** (Specify if applicable, e.g., Node.js, Apache)
-- **Database:** (Specify if applicable, e.g., MySQL, MongoDB)
 
 ## Assumptions
 - Users have a modern web browser for optimal performance.
